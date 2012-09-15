@@ -1,0 +1,4 @@
+[submodule "workspace"]
+	path = workspace
+	url = git://github.com/sgharms/Halbert.git
+  branch = base-for-guide
