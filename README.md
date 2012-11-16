@@ -10,12 +10,10 @@ An repo of commits going from a basic Ember environment to a full application th
 1.  `git submodule init` 
 1.  `git submodule update` 
 1.  cd `workspace`
-1.  export CC=/usr/local/bin/gcc-4.2 [^1]
+1.  export CC=/usr/local/bin/gcc-4.2. *Mac OS X Lion Only*
 1.  `gem install bundler`
 1.  `bundle install`
 1.  `rake`
-
-[^1]: This may only be needed for Mac OS X Lion users.
 
 You should now have a server running on port :4567.  Have fun exploring Ember!
 
