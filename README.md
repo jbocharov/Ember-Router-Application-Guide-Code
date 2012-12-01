@@ -10,6 +10,8 @@ An repo of commits going from a basic Ember environment to a full application th
 1.  `git submodule init` 
 1.  `git submodule update` 
 1.  cd `workspace`
+1.  export CC=/usr/local/bin/gcc-4.2. *Mac OS X Lion Only*
+1.  `gem install bundler`
 1.  `bundle install`
 1.  `rake`
 
